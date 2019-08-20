@@ -1,0 +1,26 @@
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.dll.config
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiColombiaInterfaces.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiColombiaInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiColombiaInterfaces.csproj.CopyComplete
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.dll.config
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiColombiaInterfaces.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiColombiaInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiColombiaInterfaces.csproj.CopyComplete
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfacesFacturador.pdb

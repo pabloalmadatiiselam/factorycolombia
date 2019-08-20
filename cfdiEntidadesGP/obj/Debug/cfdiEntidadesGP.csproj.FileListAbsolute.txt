@@ -1,0 +1,36 @@
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csproj.CopyComplete
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csproj.CopyComplete
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiEntidadesGP\obj\Debug\cfdiEntidadesGP.csproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\EMailManejador\bin\Debug\EMailManejador.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\EMailManejador\bin\Debug\EMailManejador.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.csproj.ResolveComReference.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\EMailManejador\bin\Debug\EMailManejador.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\EMailManejador\bin\Debug\EMailManejador.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.csproj.ResolveComReference.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\EMailManejador\obj\Debug\EMailManejador.pdb

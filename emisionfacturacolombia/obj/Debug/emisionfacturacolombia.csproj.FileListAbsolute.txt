@@ -1,0 +1,51 @@
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.dll.config
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.dll
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.pdb
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.dll.config
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csproj.CopyComplete
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.dll
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.pdb
+C:\Users\Obdu\Desktop\app\emisionfacturacolombia\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.dll.config
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.dll.config
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csproj.CopyComplete
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.dll.config
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\emisionfacturacolombia.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiPeruInterfacesFacturador.dll.config
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\emisionfacturacolombia\obj\Debug\emisionfacturacolombia.csproj.CopyComplete

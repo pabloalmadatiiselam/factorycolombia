@@ -1,0 +1,13 @@
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.dll.config
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfaces.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfaces.csproj.CopyComplete
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruInterfacesFacturador\obj\Debug\cfdiPeruInterfacesFacturador.pdb

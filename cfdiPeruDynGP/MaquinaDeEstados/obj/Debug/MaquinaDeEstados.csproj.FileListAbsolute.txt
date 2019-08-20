@@ -1,0 +1,30 @@
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\MaquinaDeEstados.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\MaquinaDeEstados.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csproj.CopyComplete
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\MaquinaDeEstados.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\MaquinaDeEstados.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csproj.CopyComplete
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\MaquinaDeEstados.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\MaquinaDeEstados.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.csproj.CopyComplete
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\MaquinaDeEstados\obj\Debug\MaquinaDeEstados.pdb

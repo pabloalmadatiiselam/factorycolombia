@@ -1,0 +1,6 @@
+C:\Users\Obdu\Desktop\app\cfdiColomiaDFacture2\bin\Debug\cfdiColomiaDFacture2.dll
+C:\Users\Obdu\Desktop\app\cfdiColomiaDFacture2\bin\Debug\cfdiColomiaDFacture2.pdb
+C:\Users\Obdu\Desktop\app\cfdiColomiaDFacture2\obj\Debug\cfdiColomiaDFacture2.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiColomiaDFacture2\obj\Debug\cfdiColomiaDFacture2.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiColomiaDFacture2\obj\Debug\cfdiColomiaDFacture2.dll
+C:\Users\Obdu\Desktop\app\cfdiColomiaDFacture2\obj\Debug\cfdiColomiaDFacture2.pdb

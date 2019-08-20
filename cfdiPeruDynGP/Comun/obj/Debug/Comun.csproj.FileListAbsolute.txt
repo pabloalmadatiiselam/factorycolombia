@@ -1,0 +1,24 @@
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDynGP\Comun\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.dll
+C:\Users\Obdu\Desktop\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.dll
+C:\Users\Obdu\Desktop\the factory colombia proyecto nuevo\clonacion del app\co02\app\cfdiPeruDynGP\Comun\obj\Debug\Comun.pdb

@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PERUEntities.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiClienteDestinatario' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiClienteDestinatario">
+    <Key>
+      <PropertyRef Name="CUSTNMBR" />
+    </Key>
+    <Property Name="CUSTNMBR" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="cliente_canalEntrega" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cliente_email" Type="varchar" MaxLength="23" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiClienteObligaciones' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiClienteObligaciones">
+    <Key>
+      <PropertyRef Name="CUSTNMBR" />
+    </Key>
+    <Property Name="CUSTNMBR" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="cliente_obligaciones" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="cliente_regimen" Type="varchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiConceptos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiConceptos">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+      <PropertyRef Name="lnitmseq" />
+      <PropertyRef Name="cmpntseq" />
+    </Key>
+    <Property Name="soptype" Type="int" Nullable="false" />
+    <Property Name="sopnumbe" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="lnitmseq" Type="int" Nullable="false" />
+    <Property Name="itemnmbr" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cmpntseq" Type="int" Nullable="false" />
+    <Property Name="facturadetalle_cantidadreal" Type="numeric" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="facturadetalle_cantidadrealunidadmedida" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="facturadetalle_cantidadunidades" Type="numeric" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="cargosdescuentos_codigo" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="cargosdescuentos_descripcion" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cargosdescuentos_indicador" Type="int" Nullable="false" />
+    <Property Name="cargosdescuentos_monto" Type="int" Nullable="false" />
+    <Property Name="cargosdescuentos_montobase" Type="int" Nullable="false" />
+    <Property Name="cargodescuentos_porcentaje" Type="int" Nullable="false" />
+    <Property Name="cargosdescuentos_secuencia" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="facturadetalle_codigoproducto" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="facturadetalle_descripcion" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="facturadetalle_estandarcodigo" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="facturadetalle_estandarcodigoproducto" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="facturadetalle_marca" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="facturadetalle_modelo" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="facturadetalle_precioTotal" Type="numeric" Precision="4" Scale="2" Nullable="false" />
+    <Property Name="facturadetalle_precioTotalSinImpuestos" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="facturadetalle_precioVentaUnitario" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="facturadetalle_secuencia" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="facturadetalle_unidadMedida" Type="varchar" MaxLength="3" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiFacturaImpuestosCabecera' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiFacturaImpuestosCabecera">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="soptype" Type="int" Nullable="false" />
+    <Property Name="sopnumbe" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="baseimponibletotalimp" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="codigoTotalImp" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="controlInterno" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="porcentajeTotalImp" Type="numeric" Precision="4" Scale="2" Nullable="false" />
+    <Property Name="unidadMedida" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="unidadMedidaTributo" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="valorTotalImp" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="valorTributoUnidad" Type="varchar" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiFacturaImpuestosDetalles' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiFacturaImpuestosDetalles">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+      <PropertyRef Name="lnitmseq" />
+      <PropertyRef Name="cmpntseq" />
+    </Key>
+    <Property Name="soptype" Type="int" Nullable="false" />
+    <Property Name="sopnumbe" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="lnitmseq" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="itemnmbr" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cmpntseq" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="baseimponibletotalimp" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="codigoTotalImp" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="controlInterno" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="porcentajeTotalImp" Type="numeric" Precision="4" Scale="2" Nullable="false" />
+    <Property Name="unidadMedida" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="unidadMedidaTributo" Type="int" />
+    <Property Name="valorTotalImp" Type="numeric" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="valorTributoUnidad" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiGeneraDocumentoDeVenta' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiGeneraDocumentoDeVenta">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="soptype" Type="int" Nullable="false" />
+    <Property Name="sopnumbe" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="CUSTNMBR" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="cantidadDecimales" Type="int" Nullable="false" />
+    <Property Name="consecutivoDocumento" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="cargosdescuentos_codigo" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="cargosdescuentos_descripcion" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cargosdescuentos_indicador" Type="int" Nullable="false" />
+    <Property Name="cargosdescuentos_monto" Type="int" Nullable="false" />
+    <Property Name="cargosdescuentos_montobase" Type="int" Nullable="false" />
+    <Property Name="cargodescuentos_porcentaje" Type="int" Nullable="false" />
+    <Property Name="cargosdescuentos_secuencia" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cliente_nitProveedorReceptor" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cliente_telefono" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="cliente_difcodigoDepartamento" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="cliente_difdireccion" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="cliente_diflenguaje" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="cliente_difmunicipio" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="cliente_difpais" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="cliente_difzonapostal" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="cliente_email" Type="varchar" MaxLength="23" Nullable="false" />
+    <Property Name="cliente_nombreRegistroRUT" Type="varchar" MaxLength="33" Nullable="false" />
+    <Property Name="cliente_numeroIdentificacion" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="cliente_numeroIdentificacionDV" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cliente_tipoIdentificacion" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="cliente_nombreComercial" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cliente_nombreRazonSocial" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="cliente_notificar" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="cliente_numeroDocumento" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="cliente_tipoPersona" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cliente_actividadEconomicaCIIU" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="fechaEmision" Type="varchar" MaxLength="19" Nullable="false" />
+    <Property Name="fechaVencimiento" Type="varchar" MaxLength="19" Nullable="false" />
+    <Property Name="moneda" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="rangonumeracion" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="redondeoaplicado" Type="numeric" Precision="2" Scale="2" Nullable="false" />
+    <Property Name="tasaDeCambio" Type="int" Nullable="false" />
+    <Property Name="tipoDocumento" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="tipoOperacion" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="totalBaseImponible" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="totalBrutoconImpuestos" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="totalMonto" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="totalProductos" Type="int" Nullable="false" />
+    <Property Name="totalSinImpuestos" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiGeneraResumenDiario' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiGeneraResumenDiario">
+    <Key>
+      <PropertyRef Name="tipoResumenDiario" />
+      <PropertyRef Name="numResumenDiario" />
+      <PropertyRef Name="tipoDocumento" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="tipoResumenDiario" Type="int" Nullable="false" />
+    <Property Name="numResumenDiario" Type="varchar" MaxLength="21" Nullable="false" />
+    <Property Name="docdate" Type="datetime" Nullable="false" />
+    <Property Name="tipoDocumento" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="emisorTipoDoc" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="emisorNroDoc" Type="varchar" MaxLength="8000" />
+    <Property Name="emisorNombre" Type="nvarchar(max)" />
+    <Property Name="emisorUbigeo" Type="nvarchar(max)" />
+    <Property Name="emisorDireccion" Type="nvarchar(max)" />
+    <Property Name="emisorUrbanizacion" Type="nvarchar(max)" />
+    <Property Name="emisorDepartamento" Type="nvarchar(max)" />
+    <Property Name="emisorProvincia" Type="nvarchar(max)" />
+    <Property Name="emisorDistrito" Type="nvarchar(max)" />
+    <Property Name="receptorTipoDoc" Type="varchar" MaxLength="1" />
+    <Property Name="receptorNroDoc" Type="nvarchar(max)" />
+    <Property Name="serie" Type="varchar" MaxLength="1" />
+    <Property Name="sopnumbe" Type="varchar" MaxLength="21" Nullable="false" />
+    <Property Name="iniRango" Type="int" Nullable="false" />
+    <Property Name="finRango" Type="int" Nullable="false" />
+    <Property Name="moneda" Type="varchar" MaxLength="15" />
+    <Property Name="xchgrate" Type="numeric" Precision="19" Scale="7" Nullable="false" />
+    <Property Name="totalIvaImponible" Type="numeric" Precision="38" Scale="5" Nullable="false" />
+    <Property Name="totalIva" Type="numeric" Precision="38" Scale="5" Nullable="false" />
+    <Property Name="totalInafecta" Type="numeric" Precision="38" Scale="5" Nullable="false" />
+    <Property Name="totalExonerado" Type="numeric" Precision="38" Scale="5" Nullable="false" />
+    <Property Name="totalGratuito" Type="numeric" Precision="38" Scale="5" Nullable="false" />
+    <Property Name="totalDescuento" Type="numeric" Precision="20" Scale="5" />
+    <Property Name="ORTDISAM" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+    <Property Name="total" Type="numeric" Precision="19" Scale="5" Nullable="false" />
+    <Property Name="cantidad" Type="int" Nullable="false" />
+    <Property Name="formaPago" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="tipoDocumentoTo" Type="varchar" MaxLength="2" />
+    <Property Name="sopnumbeTo" Type="varchar" MaxLength="21" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiMediosDePago' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiMediosDePago">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="soptype" Type="int" Nullable="false" />
+    <Property Name="sopnumbe" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="mediopago" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="metodopago" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="numeroreferencia" Type="varchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'COL10.dbo.vwCfdiRelacionados' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwCfdiRelacionados">
+    <Key>
+      <PropertyRef Name="orden" />
+      <PropertyRef Name="tipoDocumento" />
+      <PropertyRef Name="soptypeTo" />
+      <PropertyRef Name="codigoInterno" />
+      <PropertyRef Name="cufeDocReferenciado" />
+      <PropertyRef Name="cufeDescripcion" />
+      <PropertyRef Name="fecha" />
+      <PropertyRef Name="numeroDocumento" />
+      <PropertyRef Name="tipoCufe" />
+    </Key>
+    <Property Name="orden" Type="int" Nullable="false" />
+    <Property Name="tipoDocumento" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="soptypeFrom" Type="smallint" />
+    <Property Name="sopnumbeFrom" Type="varchar" MaxLength="21" />
+    <Property Name="soptypeTo" Type="int" Nullable="false" />
+    <Property Name="sopnumbeTo" Type="varchar" MaxLength="21" />
+    <Property Name="codigoInterno" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cufeDocReferenciado" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="cufeDescripcion" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="fecha" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="numeroDocumento" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="tipoCufe" Type="varchar" MaxLength="6" Nullable="false" />
+  </EntityType>
+  <Function Name="fCfdiParametrosTipoLeyenda" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ADRSCODE" Type="char" Mode="In" />
+    <Parameter Name="Master_Type" Type="varchar" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="inetinfo" Type="text" Nullable="false" />
+          <Property Name="INET7" Type="char" MaxLength="201" Nullable="false" />
+          <Property Name="INET8" Type="char" MaxLength="201" Nullable="false" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <EntityContainer Name="PERUEntitiesStoreContainer">
+    <EntitySet Name="vwCfdiClienteDestinatario" EntityType="Self.vwCfdiClienteDestinatario" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiClienteDestinatario].[CUSTNMBR] AS [CUSTNMBR], 
+    [vwCfdiClienteDestinatario].[cliente_canalEntrega] AS [cliente_canalEntrega], 
+    [vwCfdiClienteDestinatario].[cliente_email] AS [cliente_email]
+    FROM [dbo].[vwCfdiClienteDestinatario] AS [vwCfdiClienteDestinatario]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiClienteObligaciones" EntityType="Self.vwCfdiClienteObligaciones" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiClienteObligaciones].[CUSTNMBR] AS [CUSTNMBR], 
+    [vwCfdiClienteObligaciones].[cliente_obligaciones] AS [cliente_obligaciones], 
+    [vwCfdiClienteObligaciones].[cliente_regimen] AS [cliente_regimen]
+    FROM [dbo].[vwCfdiClienteObligaciones] AS [vwCfdiClienteObligaciones]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiConceptos" EntityType="Self.vwCfdiConceptos" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiConceptos].[soptype] AS [soptype], 
+    [vwCfdiConceptos].[sopnumbe] AS [sopnumbe], 
+    [vwCfdiConceptos].[lnitmseq] AS [lnitmseq], 
+    [vwCfdiConceptos].[itemnmbr] AS [itemnmbr], 
+    [vwCfdiConceptos].[cmpntseq] AS [cmpntseq], 
+    [vwCfdiConceptos].[facturadetalle_cantidadreal] AS [facturadetalle_cantidadreal], 
+    [vwCfdiConceptos].[facturadetalle_cantidadrealunidadmedida] AS [facturadetalle_cantidadrealunidadmedida], 
+    [vwCfdiConceptos].[facturadetalle_cantidadunidades] AS [facturadetalle_cantidadunidades], 
+    [vwCfdiConceptos].[cargosdescuentos_codigo] AS [cargosdescuentos_codigo], 
+    [vwCfdiConceptos].[cargosdescuentos_descripcion] AS [cargosdescuentos_descripcion], 
+    [vwCfdiConceptos].[cargosdescuentos_indicador] AS [cargosdescuentos_indicador], 
+    [vwCfdiConceptos].[cargosdescuentos_monto] AS [cargosdescuentos_monto], 
+    [vwCfdiConceptos].[cargosdescuentos_montobase] AS [cargosdescuentos_montobase], 
+    [vwCfdiConceptos].[cargodescuentos_porcentaje] AS [cargodescuentos_porcentaje], 
+    [vwCfdiConceptos].[cargosdescuentos_secuencia] AS [cargosdescuentos_secuencia], 
+    [vwCfdiConceptos].[facturadetalle_codigoproducto] AS [facturadetalle_codigoproducto], 
+    [vwCfdiConceptos].[facturadetalle_descripcion] AS [facturadetalle_descripcion], 
+    [vwCfdiConceptos].[facturadetalle_estandarcodigo] AS [facturadetalle_estandarcodigo], 
+    [vwCfdiConceptos].[facturadetalle_estandarcodigoproducto] AS [facturadetalle_estandarcodigoproducto], 
+    [vwCfdiConceptos].[facturadetalle_marca] AS [facturadetalle_marca], 
+    [vwCfdiConceptos].[facturadetalle_modelo] AS [facturadetalle_modelo], 
+    [vwCfdiConceptos].[facturadetalle_precioTotal] AS [facturadetalle_precioTotal], 
+    [vwCfdiConceptos].[facturadetalle_precioTotalSinImpuestos] AS [facturadetalle_precioTotalSinImpuestos], 
+    [vwCfdiConceptos].[facturadetalle_precioVentaUnitario] AS [facturadetalle_precioVentaUnitario], 
+    [vwCfdiConceptos].[facturadetalle_secuencia] AS [facturadetalle_secuencia], 
+    [vwCfdiConceptos].[facturadetalle_unidadMedida] AS [facturadetalle_unidadMedida]
+    FROM [dbo].[vwCfdiConceptos] AS [vwCfdiConceptos]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiFacturaImpuestosCabecera" EntityType="Self.vwCfdiFacturaImpuestosCabecera" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiFacturaImpuestosCabecera].[soptype] AS [soptype], 
+    [vwCfdiFacturaImpuestosCabecera].[sopnumbe] AS [sopnumbe], 
+    [vwCfdiFacturaImpuestosCabecera].[baseimponibletotalimp] AS [baseimponibletotalimp], 
+    [vwCfdiFacturaImpuestosCabecera].[codigoTotalImp] AS [codigoTotalImp], 
+    [vwCfdiFacturaImpuestosCabecera].[controlInterno] AS [controlInterno], 
+    [vwCfdiFacturaImpuestosCabecera].[porcentajeTotalImp] AS [porcentajeTotalImp], 
+    [vwCfdiFacturaImpuestosCabecera].[unidadMedida] AS [unidadMedida], 
+    [vwCfdiFacturaImpuestosCabecera].[unidadMedidaTributo] AS [unidadMedidaTributo], 
+    [vwCfdiFacturaImpuestosCabecera].[valorTotalImp] AS [valorTotalImp], 
+    [vwCfdiFacturaImpuestosCabecera].[valorTributoUnidad] AS [valorTributoUnidad]
+    FROM [dbo].[vwCfdiFacturaImpuestosCabecera] AS [vwCfdiFacturaImpuestosCabecera]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiFacturaImpuestosDetalles" EntityType="Self.vwCfdiFacturaImpuestosDetalles" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiFacturaImpuestosDetalles].[soptype] AS [soptype], 
+    [vwCfdiFacturaImpuestosDetalles].[sopnumbe] AS [sopnumbe], 
+    [vwCfdiFacturaImpuestosDetalles].[lnitmseq] AS [lnitmseq], 
+    [vwCfdiFacturaImpuestosDetalles].[itemnmbr] AS [itemnmbr], 
+    [vwCfdiFacturaImpuestosDetalles].[cmpntseq] AS [cmpntseq], 
+    [vwCfdiFacturaImpuestosDetalles].[baseimponibletotalimp] AS [baseimponibletotalimp], 
+    [vwCfdiFacturaImpuestosDetalles].[codigoTotalImp] AS [codigoTotalImp], 
+    [vwCfdiFacturaImpuestosDetalles].[controlInterno] AS [controlInterno], 
+    [vwCfdiFacturaImpuestosDetalles].[porcentajeTotalImp] AS [porcentajeTotalImp], 
+    [vwCfdiFacturaImpuestosDetalles].[unidadMedida] AS [unidadMedida], 
+    [vwCfdiFacturaImpuestosDetalles].[unidadMedidaTributo] AS [unidadMedidaTributo], 
+    [vwCfdiFacturaImpuestosDetalles].[valorTotalImp] AS [valorTotalImp], 
+    [vwCfdiFacturaImpuestosDetalles].[valorTributoUnidad] AS [valorTributoUnidad]
+    FROM [dbo].[vwCfdiFacturaImpuestosDetalles] AS [vwCfdiFacturaImpuestosDetalles]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiGeneraDocumentoDeVenta" EntityType="Self.vwCfdiGeneraDocumentoDeVenta" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiGeneraDocumentoDeVenta].[soptype] AS [soptype], 
+    [vwCfdiGeneraDocumentoDeVenta].[sopnumbe] AS [sopnumbe], 
+    [vwCfdiGeneraDocumentoDeVenta].[CUSTNMBR] AS [CUSTNMBR], 
+    [vwCfdiGeneraDocumentoDeVenta].[cantidadDecimales] AS [cantidadDecimales], 
+    [vwCfdiGeneraDocumentoDeVenta].[consecutivoDocumento] AS [consecutivoDocumento], 
+    [vwCfdiGeneraDocumentoDeVenta].[cargosdescuentos_codigo] AS [cargosdescuentos_codigo], 
+    [vwCfdiGeneraDocumentoDeVenta].[cargosdescuentos_descripcion] AS [cargosdescuentos_descripcion], 
+    [vwCfdiGeneraDocumentoDeVenta].[cargosdescuentos_indicador] AS [cargosdescuentos_indicador], 
+    [vwCfdiGeneraDocumentoDeVenta].[cargosdescuentos_monto] AS [cargosdescuentos_monto], 
+    [vwCfdiGeneraDocumentoDeVenta].[cargosdescuentos_montobase] AS [cargosdescuentos_montobase], 
+    [vwCfdiGeneraDocumentoDeVenta].[cargodescuentos_porcentaje] AS [cargodescuentos_porcentaje], 
+    [vwCfdiGeneraDocumentoDeVenta].[cargosdescuentos_secuencia] AS [cargosdescuentos_secuencia], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_nitProveedorReceptor] AS [cliente_nitProveedorReceptor], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_telefono] AS [cliente_telefono], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_difcodigoDepartamento] AS [cliente_difcodigoDepartamento], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_difdireccion] AS [cliente_difdireccion], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_diflenguaje] AS [cliente_diflenguaje], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_difmunicipio] AS [cliente_difmunicipio], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_difpais] AS [cliente_difpais], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_difzonapostal] AS [cliente_difzonapostal], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_email] AS [cliente_email], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_nombreRegistroRUT] AS [cliente_nombreRegistroRUT], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_numeroIdentificacion] AS [cliente_numeroIdentificacion], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_numeroIdentificacionDV] AS [cliente_numeroIdentificacionDV], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_tipoIdentificacion] AS [cliente_tipoIdentificacion], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_nombreComercial] AS [cliente_nombreComercial], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_nombreRazonSocial] AS [cliente_nombreRazonSocial], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_notificar] AS [cliente_notificar], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_numeroDocumento] AS [cliente_numeroDocumento], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_tipoPersona] AS [cliente_tipoPersona], 
+    [vwCfdiGeneraDocumentoDeVenta].[cliente_actividadEconomicaCIIU] AS [cliente_actividadEconomicaCIIU], 
+    [vwCfdiGeneraDocumentoDeVenta].[fechaEmision] AS [fechaEmision], 
+    [vwCfdiGeneraDocumentoDeVenta].[fechaVencimiento] AS [fechaVencimiento], 
+    [vwCfdiGeneraDocumentoDeVenta].[moneda] AS [moneda], 
+    [vwCfdiGeneraDocumentoDeVenta].[rangonumeracion] AS [rangonumeracion], 
+    [vwCfdiGeneraDocumentoDeVenta].[redondeoaplicado] AS [redondeoaplicado], 
+    [vwCfdiGeneraDocumentoDeVenta].[tasaDeCambio] AS [tasaDeCambio], 
+    [vwCfdiGeneraDocumentoDeVenta].[tipoDocumento] AS [tipoDocumento], 
+    [vwCfdiGeneraDocumentoDeVenta].[tipoOperacion] AS [tipoOperacion], 
+    [vwCfdiGeneraDocumentoDeVenta].[totalBaseImponible] AS [totalBaseImponible], 
+    [vwCfdiGeneraDocumentoDeVenta].[totalBrutoconImpuestos] AS [totalBrutoconImpuestos], 
+    [vwCfdiGeneraDocumentoDeVenta].[totalMonto] AS [totalMonto], 
+    [vwCfdiGeneraDocumentoDeVenta].[totalProductos] AS [totalProductos], 
+    [vwCfdiGeneraDocumentoDeVenta].[totalSinImpuestos] AS [totalSinImpuestos]
+    FROM [dbo].[vwCfdiGeneraDocumentoDeVenta] AS [vwCfdiGeneraDocumentoDeVenta]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiGeneraResumenDiario" EntityType="Self.vwCfdiGeneraResumenDiario" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiGeneraResumenDiario].[tipoResumenDiario] AS [tipoResumenDiario], 
+    [vwCfdiGeneraResumenDiario].[numResumenDiario] AS [numResumenDiario], 
+    [vwCfdiGeneraResumenDiario].[docdate] AS [docdate], 
+    [vwCfdiGeneraResumenDiario].[tipoDocumento] AS [tipoDocumento], 
+    [vwCfdiGeneraResumenDiario].[emisorTipoDoc] AS [emisorTipoDoc], 
+    [vwCfdiGeneraResumenDiario].[emisorNroDoc] AS [emisorNroDoc], 
+    [vwCfdiGeneraResumenDiario].[emisorNombre] AS [emisorNombre], 
+    [vwCfdiGeneraResumenDiario].[emisorUbigeo] AS [emisorUbigeo], 
+    [vwCfdiGeneraResumenDiario].[emisorDireccion] AS [emisorDireccion], 
+    [vwCfdiGeneraResumenDiario].[emisorUrbanizacion] AS [emisorUrbanizacion], 
+    [vwCfdiGeneraResumenDiario].[emisorDepartamento] AS [emisorDepartamento], 
+    [vwCfdiGeneraResumenDiario].[emisorProvincia] AS [emisorProvincia], 
+    [vwCfdiGeneraResumenDiario].[emisorDistrito] AS [emisorDistrito], 
+    [vwCfdiGeneraResumenDiario].[receptorTipoDoc] AS [receptorTipoDoc], 
+    [vwCfdiGeneraResumenDiario].[receptorNroDoc] AS [receptorNroDoc], 
+    [vwCfdiGeneraResumenDiario].[serie] AS [serie], 
+    [vwCfdiGeneraResumenDiario].[sopnumbe] AS [sopnumbe], 
+    [vwCfdiGeneraResumenDiario].[iniRango] AS [iniRango], 
+    [vwCfdiGeneraResumenDiario].[finRango] AS [finRango], 
+    [vwCfdiGeneraResumenDiario].[moneda] AS [moneda], 
+    [vwCfdiGeneraResumenDiario].[xchgrate] AS [xchgrate], 
+    [vwCfdiGeneraResumenDiario].[totalIvaImponible] AS [totalIvaImponible], 
+    [vwCfdiGeneraResumenDiario].[totalIva] AS [totalIva], 
+    [vwCfdiGeneraResumenDiario].[totalInafecta] AS [totalInafecta], 
+    [vwCfdiGeneraResumenDiario].[totalExonerado] AS [totalExonerado], 
+    [vwCfdiGeneraResumenDiario].[totalGratuito] AS [totalGratuito], 
+    [vwCfdiGeneraResumenDiario].[totalDescuento] AS [totalDescuento], 
+    [vwCfdiGeneraResumenDiario].[ORTDISAM] AS [ORTDISAM], 
+    [vwCfdiGeneraResumenDiario].[total] AS [total], 
+    [vwCfdiGeneraResumenDiario].[cantidad] AS [cantidad], 
+    [vwCfdiGeneraResumenDiario].[formaPago] AS [formaPago], 
+    [vwCfdiGeneraResumenDiario].[tipoDocumentoTo] AS [tipoDocumentoTo], 
+    [vwCfdiGeneraResumenDiario].[sopnumbeTo] AS [sopnumbeTo]
+    FROM [dbo].[vwCfdiGeneraResumenDiario] AS [vwCfdiGeneraResumenDiario]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiMediosDePago" EntityType="Self.vwCfdiMediosDePago" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiMediosDePago].[soptype] AS [soptype], 
+    [vwCfdiMediosDePago].[sopnumbe] AS [sopnumbe], 
+    [vwCfdiMediosDePago].[mediopago] AS [mediopago], 
+    [vwCfdiMediosDePago].[metodopago] AS [metodopago], 
+    [vwCfdiMediosDePago].[numeroreferencia] AS [numeroreferencia]
+    FROM [dbo].[vwCfdiMediosDePago] AS [vwCfdiMediosDePago]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwCfdiRelacionados" EntityType="Self.vwCfdiRelacionados" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwCfdiRelacionados].[orden] AS [orden], 
+    [vwCfdiRelacionados].[tipoDocumento] AS [tipoDocumento], 
+    [vwCfdiRelacionados].[soptypeFrom] AS [soptypeFrom], 
+    [vwCfdiRelacionados].[sopnumbeFrom] AS [sopnumbeFrom], 
+    [vwCfdiRelacionados].[soptypeTo] AS [soptypeTo], 
+    [vwCfdiRelacionados].[sopnumbeTo] AS [sopnumbeTo], 
+    [vwCfdiRelacionados].[codigoInterno] AS [codigoInterno], 
+    [vwCfdiRelacionados].[cufeDocReferenciado] AS [cufeDocReferenciado], 
+    [vwCfdiRelacionados].[cufeDescripcion] AS [cufeDescripcion], 
+    [vwCfdiRelacionados].[fecha] AS [fecha], 
+    [vwCfdiRelacionados].[numeroDocumento] AS [numeroDocumento], 
+    [vwCfdiRelacionados].[tipoCufe] AS [tipoCufe]
+    FROM [dbo].[vwCfdiRelacionados] AS [vwCfdiRelacionados]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

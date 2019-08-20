@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PERUEntities" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PER10Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vwCfdiGeneraResumenDiario" EntityType="PERUEntities.vwCfdiGeneraResumenDiario" />
+    <FunctionImport Name="fCfdiParametrosTipoLeyenda" IsComposable="true" ReturnType="Collection(PERUEntities.fCfdiParametrosTipoLeyenda_Result)">
+      <Parameter Name="ADRSCODE" Mode="In" Type="String" />
+      <Parameter Name="Master_Type" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="vwCfdiClienteDestinatario" EntityType="PERUEntities.vwCfdiClienteDestinatario" />
+    <EntitySet Name="vwCfdiClienteObligaciones" EntityType="PERUEntities.vwCfdiClienteObligaciones" />
+    <EntitySet Name="vwCfdiFacturaImpuestosCabecera" EntityType="PERUEntities.vwCfdiFacturaImpuestosCabecera" />
+    <EntitySet Name="vwCfdiFacturaImpuestosDetalles" EntityType="PERUEntities.vwCfdiFacturaImpuestosDetalles" />
+    <EntitySet Name="vwCfdiMediosDePago" EntityType="PERUEntities.vwCfdiMediosDePago" />
+    <EntitySet Name="vwCfdiConceptos" EntityType="PERUEntities.vwCfdiConceptos" />
+    <EntitySet Name="vwCfdiRelacionados" EntityType="PERUEntities.vwCfdiRelacionados" />
+    <EntitySet Name="vwCfdiGeneraDocumentoDeVenta" EntityType="PERUEntities.vwCfdiGeneraDocumentoDeVenta" />
+  </EntityContainer>
+  <EntityType Name="vwCfdiGeneraResumenDiario">
+    <Key>
+      <PropertyRef Name="tipoResumenDiario" />
+      <PropertyRef Name="numResumenDiario" />
+      <PropertyRef Name="tipoDocumento" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="tipoResumenDiario" Type="Int32" Nullable="false" />
+    <Property Name="numResumenDiario" Type="String" MaxLength="21" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="docdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="tipoDocumento" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="emisorTipoDoc" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="emisorNroDoc" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="emisorNombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="emisorUbigeo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="emisorDireccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="emisorUrbanizacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="emisorDepartamento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="emisorProvincia" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="emisorDistrito" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="receptorTipoDoc" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="receptorNroDoc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="serie" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="sopnumbe" Type="String" MaxLength="21" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="iniRango" Type="Int32" Nullable="false" />
+    <Property Name="finRango" Type="Int32" Nullable="false" />
+    <Property Name="moneda" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="xchgrate" Type="Decimal" Nullable="false" Precision="19" Scale="7" />
+    <Property Name="totalIvaImponible" Type="Decimal" Nullable="false" Precision="38" Scale="5" />
+    <Property Name="totalIva" Type="Decimal" Nullable="false" Precision="38" Scale="5" />
+    <Property Name="totalInafecta" Type="Decimal" Nullable="false" Precision="38" Scale="5" />
+    <Property Name="totalExonerado" Type="Decimal" Nullable="false" Precision="38" Scale="5" />
+    <Property Name="totalGratuito" Type="Decimal" Nullable="false" Precision="38" Scale="5" />
+    <Property Name="totalDescuento" Type="Decimal" Precision="20" Scale="5" />
+    <Property Name="ORTDISAM" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="total" Type="Decimal" Nullable="false" Precision="19" Scale="5" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <Property Name="formaPago" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="tipoDocumentoTo" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="sopnumbeTo" Type="String" MaxLength="21" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="fCfdiParametrosTipoLeyenda_Result">
+    <Property Type="String" Name="inetinfo" Nullable="false" MaxLength="Max" />
+    <Property Type="String" Name="INET7" Nullable="false" MaxLength="201" />
+    <Property Type="String" Name="INET8" Nullable="false" MaxLength="201" />
+  </ComplexType>
+  <EntityType Name="vwCfdiClienteDestinatario">
+    <Key>
+      <PropertyRef Name="CUSTNMBR" />
+    </Key>
+    <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_canalEntrega" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_email" Type="String" Nullable="false" MaxLength="23" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwCfdiClienteObligaciones">
+    <Key>
+      <PropertyRef Name="CUSTNMBR" />
+    </Key>
+    <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_obligaciones" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_regimen" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwCfdiFacturaImpuestosCabecera">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="soptype" Type="Int32" Nullable="false" />
+    <Property Name="sopnumbe" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="baseimponibletotalimp" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="codigoTotalImp" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="controlInterno" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="porcentajeTotalImp" Type="Decimal" Nullable="false" Precision="4" Scale="2" />
+    <Property Name="unidadMedida" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="unidadMedidaTributo" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="valorTotalImp" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="valorTributoUnidad" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwCfdiFacturaImpuestosDetalles">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+      <PropertyRef Name="lnitmseq" />
+      <PropertyRef Name="cmpntseq" />
+    </Key>
+    <Property Name="soptype" Type="Int32" Nullable="false" />
+    <Property Name="sopnumbe" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="lnitmseq" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="itemnmbr" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cmpntseq" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="baseimponibletotalimp" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="codigoTotalImp" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="controlInterno" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="porcentajeTotalImp" Type="Decimal" Nullable="false" Precision="4" Scale="2" />
+    <Property Name="unidadMedida" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="unidadMedidaTributo" Type="Int32" />
+    <Property Name="valorTotalImp" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="valorTributoUnidad" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vwCfdiMediosDePago">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="soptype" Type="Int32" Nullable="false" />
+    <Property Name="sopnumbe" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="mediopago" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="metodopago" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="numeroreferencia" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwCfdiConceptos">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+      <PropertyRef Name="lnitmseq" />
+      <PropertyRef Name="cmpntseq" />
+    </Key>
+    <Property Name="soptype" Type="Int32" Nullable="false" />
+    <Property Name="sopnumbe" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="lnitmseq" Type="Int32" Nullable="false" />
+    <Property Name="itemnmbr" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cmpntseq" Type="Int32" Nullable="false" />
+    <Property Name="facturadetalle_cantidadreal" Type="Decimal" Nullable="false" Precision="3" Scale="2" />
+    <Property Name="facturadetalle_cantidadrealunidadmedida" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_cantidadunidades" Type="Decimal" Nullable="false" Precision="3" Scale="2" />
+    <Property Name="cargosdescuentos_codigo" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="cargosdescuentos_descripcion" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cargosdescuentos_indicador" Type="Int32" Nullable="false" />
+    <Property Name="cargosdescuentos_monto" Type="Int32" Nullable="false" />
+    <Property Name="cargosdescuentos_montobase" Type="Int32" Nullable="false" />
+    <Property Name="cargodescuentos_porcentaje" Type="Int32" Nullable="false" />
+    <Property Name="cargosdescuentos_secuencia" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_codigoproducto" Type="String" Nullable="false" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_descripcion" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_estandarcodigo" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_estandarcodigoproducto" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_marca" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_modelo" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_precioTotal" Type="Decimal" Nullable="false" Precision="4" Scale="2" />
+    <Property Name="facturadetalle_precioTotalSinImpuestos" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="facturadetalle_precioVentaUnitario" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="facturadetalle_secuencia" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="facturadetalle_unidadMedida" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwCfdiRelacionados">
+    <Key>
+      <PropertyRef Name="orden" />
+      <PropertyRef Name="tipoDocumento" />
+      <PropertyRef Name="soptypeTo" />
+      <PropertyRef Name="codigoInterno" />
+      <PropertyRef Name="cufeDocReferenciado" />
+      <PropertyRef Name="cufeDescripcion" />
+      <PropertyRef Name="fecha" />
+      <PropertyRef Name="numeroDocumento" />
+      <PropertyRef Name="tipoCufe" />
+    </Key>
+    <Property Name="orden" Type="Int32" Nullable="false" />
+    <Property Name="tipoDocumento" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="soptypeFrom" Type="Int16" />
+    <Property Name="sopnumbeFrom" Type="String" MaxLength="21" FixedLength="false" Unicode="false" />
+    <Property Name="soptypeTo" Type="Int32" Nullable="false" />
+    <Property Name="sopnumbeTo" Type="String" MaxLength="21" FixedLength="false" Unicode="false" />
+    <Property Name="codigoInterno" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cufeDocReferenciado" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cufeDescripcion" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="fecha" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="numeroDocumento" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="tipoCufe" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="vwCfdiGeneraDocumentoDeVenta">
+    <Key>
+      <PropertyRef Name="soptype" />
+      <PropertyRef Name="sopnumbe" />
+    </Key>
+    <Property Name="soptype" Type="Int32" Nullable="false" />
+    <Property Name="sopnumbe" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="CUSTNMBR" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="cantidadDecimales" Type="Int32" Nullable="false" />
+    <Property Name="consecutivoDocumento" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="cargosdescuentos_codigo" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="cargosdescuentos_descripcion" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cargosdescuentos_indicador" Type="Int32" Nullable="false" />
+    <Property Name="cargosdescuentos_monto" Type="Int32" Nullable="false" />
+    <Property Name="cargosdescuentos_montobase" Type="Int32" Nullable="false" />
+    <Property Name="cargodescuentos_porcentaje" Type="Int32" Nullable="false" />
+    <Property Name="cargosdescuentos_secuencia" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_nitProveedorReceptor" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_telefono" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_difcodigoDepartamento" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_difdireccion" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_diflenguaje" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_difmunicipio" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_difpais" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_difzonapostal" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_email" Type="String" Nullable="false" MaxLength="23" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_nombreRegistroRUT" Type="String" Nullable="false" MaxLength="33" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_numeroIdentificacion" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_numeroIdentificacionDV" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_tipoIdentificacion" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_nombreComercial" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_nombreRazonSocial" Type="String" Nullable="false" MaxLength="24" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_notificar" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_numeroDocumento" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_tipoPersona" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="cliente_actividadEconomicaCIIU" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="fechaEmision" Type="String" Nullable="false" MaxLength="19" FixedLength="false" Unicode="false" />
+    <Property Name="fechaVencimiento" Type="String" Nullable="false" MaxLength="19" FixedLength="false" Unicode="false" />
+    <Property Name="moneda" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="rangonumeracion" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="redondeoaplicado" Type="Decimal" Nullable="false" Precision="2" Scale="2" />
+    <Property Name="tasaDeCambio" Type="Int32" Nullable="false" />
+    <Property Name="tipoDocumento" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="tipoOperacion" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="totalBaseImponible" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="totalBrutoconImpuestos" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="totalMonto" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="totalProductos" Type="Int32" Nullable="false" />
+    <Property Name="totalSinImpuestos" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+  </EntityType>
+</Schema>

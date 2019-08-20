@@ -1,0 +1,16 @@
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiPeruDFactureUbl21.dll.config
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiPeruDFactureUbl21.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiPeruDFactureUbl21.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiEntidadesGP.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiPeruInterfacesFacturador.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\EntityFramework.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiEntidadesGP.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiEntidadesGP.dll.config
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiPeruInterfacesFacturador.pdb
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\cfdiPeruInterfacesFacturador.dll.config
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\bin\Debug\EntityFramework.xml
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\obj\Debug\cfdiPeruDFactureUbl21.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\obj\Debug\cfdiPeruDFactureUbl21.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\obj\Debug\cfdiPeruDFactureUbl21.csproj.CopyComplete
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\obj\Debug\cfdiPeruDFactureUbl21.dll
+C:\Users\Obdu\Desktop\app\cfdiPeruDFactureUbl21\obj\Debug\cfdiPeruDFactureUbl21.pdb

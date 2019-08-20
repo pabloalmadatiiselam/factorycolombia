@@ -1,0 +1,9 @@
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\bin\Debug\netstandard2.0\cfdiColombiaDFacture.deps.json
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\bin\Debug\netstandard2.0\cfdiColombiaDFacture.dll
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\bin\Debug\netstandard2.0\cfdiColombiaDFacture.pdb
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\obj\Debug\netstandard2.0\cfdiColombiaDFacture.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\obj\Debug\netstandard2.0\cfdiColombiaDFacture.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\obj\Debug\netstandard2.0\cfdiColombiaDFacture.AssemblyInfoInputs.cache
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\obj\Debug\netstandard2.0\cfdiColombiaDFacture.AssemblyInfo.cs
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\obj\Debug\netstandard2.0\cfdiColombiaDFacture.dll
+C:\Users\Obdu\Desktop\app\cfdiColombiaDFacture\obj\Debug\netstandard2.0\cfdiColombiaDFacture.pdb
